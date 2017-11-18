@@ -2,7 +2,7 @@ import winsound
 import time
 import sys
 
-name = 'DIPTANGSU'
+name = raw_input("What is your name? ")
 
 sys.stdout.write('Ha')
 winsound.Beep(264, 250)
@@ -46,8 +46,8 @@ sys.stdout.write('Ha')
 winsound.Beep(264, 250)
 time.sleep(250/2000.0)
 sys.stdout.write('ppy ')
-winsound.Beep(264, 1000)
-time.sleep(250/2000.0)
+winsound.Beep(264, 500)
+time.sleep(250/1000.0)
 sys.stdout.write('birth')
 winsound.Beep(440, 1000)
 time.sleep(250/2000.0)
@@ -60,7 +60,7 @@ print(name)
 time.sleep(250/2000.0)
 winsound.Beep(297, 1000)
 
-winsound.Beep(440, 500)
+winsound.Beep(440, 1000)
 time.sleep(250/2000.0)
 
 time.sleep(500/2000.0)
